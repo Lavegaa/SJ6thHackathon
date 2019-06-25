@@ -1,0 +1,17 @@
+.main_container{
+    width: 80%;
+    height: 100vh;
+    margin: auto;
+}
+
+#txt_room p{
+    font-size: 5rem;
+}
+
+#txt_res_day p{
+    font-size: 4rem;
+}
+
+#check span{
+    font-size: 2rem;
+}

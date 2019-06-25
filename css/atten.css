@@ -1,0 +1,34 @@
+.main_container{
+    width: 80%;
+    height: 100vh;
+    margin: auto;
+}
+.attendance{
+    text-align: center;
+    font-size: 5rem;
+}
+
+#counter{
+    font-size: 2rem;
+}
+
+.box-items{
+
+    border: solid 1px;
+    margin: 1%;
+    text-align: center;
+    width: 47%;
+    position: relative;
+    float: left;
+    font-size: 3rem;
+}
+
+.itemSelected{
+    background-color: black;
+    color: white;
+}
+
+#submitform{
+    margin-top: 5%;
+    margin-left: 47%;
+}

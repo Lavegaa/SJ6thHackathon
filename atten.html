@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/atten.css"></head>
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="main_container">
+           
+            <div class="attendance">
+                <p>출석 체크</p>
+            </div>
+            <div id="counter">0/4</div>
+            <div class="box-items" id="1">14011188</div>
+            <div class="box-items" id="2">14022942</div>
+            <div class="box-items" id="3">15011234</div>
+            <div class="box-items" id="4">16101234</div>
+            <form method="post" action="eval.html">
+                <input type="submit" value="다음" id="submitform">
+            </form>
+
+    </div>
+
+    <script>
+    var maxItems = 4;
+    var counter = 0;
+    $("#submitform").attr('disabled',true);
+    $(function () {
+        $(".box-items").click(function () {
+                if ($(this).hasClass("itemSelected")) {
+                    $(this).removeClass("itemSelected");
+                    counter--;
+                    $("#counter").text(counter+"/4");
+                    if(counter == 3){
+                        $("#submitform").attr('disabled',true);
+                    }
+                }else{
+                    $(this).toggleClass("itemSelected");
+                    counter++;
+                    $("#counter").text(counter+"/4");
+                    if(counter == 4){
+                        $("#submitform").attr('disabled',false);
+                    }
+                }
+            
+            //i use slice to remove last comma
+        });
+    });
+
+    
+    </script>
+</body>
+</html>
