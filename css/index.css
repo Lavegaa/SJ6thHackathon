@@ -1,0 +1,35 @@
+
+  body {
+    background-color: rgb(250, 250, 250);
+    text-align: center;
+  }
+  .container{
+    margin-top: 200px;
+
+  }
+  .reservation{
+    cursor: pointer;
+    margin-right: 30px;
+    display: inline-block;
+    border-radius: 10px;
+    width : 200px;
+    height : 200px;
+    background-color: #3897F0;
+  }
+  .reservation h1{
+    color: white;
+    margin-top : 70px;
+  }
+  .eval{
+      cursor: pointer;
+    display: inline-block;
+    border-radius: 10px;
+    width : 200px;
+    height : 200px;
+    background-color: #3897F0;
+
+  }
+  .eval h1{
+    color: white;
+    margin-top : 70px;
+  }

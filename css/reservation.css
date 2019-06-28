@@ -1,0 +1,228 @@
+body {
+  margin: 0;
+  background-color: RGB(250,250,250);
+}
+.fast-reserve {
+  margin-top: 70px;
+  width: 100%;
+  height : 70vh;
+  background-image: url("img/fast.jpg");
+  background-size: cover;
+
+}
+/* #fast-box{
+  width:500px;
+  height : 50vh;
+  background-color: white;
+} */
+/* container */
+.main_container {
+  width: 80%;
+  height: 150vh;
+  margin-top : 150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.room_talk {
+  margin: 0 auto;
+  height: 50vh;
+}
+.talk {
+  display: flex;
+}
+
+.talk li {
+  margin-right: 25px;
+  cursor: pointer;
+}
+
+#talk1 {
+  font-size: 13px;
+  width: 250px;
+  height: 200px;
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+}
+
+#talk1_img {
+  height: 200px;
+  width: 150px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  background-size: cover;
+  background-image: url("img/room1.png");
+}
+
+#talk1_txt {
+
+  height: 200px;
+  width: 100px;
+  background-color: RGB(235, 235, 235);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+#talk2 {
+  font-size: 13px;
+  width: 250px;
+  height: 200px;
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+}
+
+#talk2_img {
+  height: 200px;
+  width: 150px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  background-size: cover;
+  background-image: url("img/room2.png");
+}
+
+#talk2_txt {
+  height: 200px;
+  width: 100px;
+  background-color: RGB(239, 239, 239);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+#talk3 {
+  font-size: 13px;
+  width: 250px;
+  height: 200px;
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+}
+
+#talk3_img {
+  height: 200px;
+  width: 150px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  background-size: cover;
+  background-image: url("img/room3.png");
+}
+
+#talk3_txt {
+  height: 200px;
+  width: 100px;
+  background-color: RGB(239, 239, 239);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.room_device {
+  margin: 0 auto;
+  height: 50vh;
+}
+
+.device {
+  display: flex;
+}
+
+.device li {
+  cursor: pointer;
+  margin-right: 25px;
+}
+
+#device1 {
+  width: 250px;
+  height: 200px;
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+
+}
+
+#device1_img {
+  height: 200px;
+  width: 150px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  background-size: cover;
+  background-image: url("img/vr.png");
+}
+
+#device1_txt {
+  font-size: 13px;
+  height: 200px;
+  width: 100px;
+  background-color: RGB(239, 239, 239);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+#device2 {
+  width: 250px;
+  height: 200px;
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+}
+
+#device2_img {
+  height: 200px;
+  width: 150px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  background-size: cover;
+  background-image: url("img/sound.png");
+}
+
+#device2_txt {
+  font-size: 13px;
+  height: 200px;
+  width: 100px;
+  background-color: RGB(239, 239, 239);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+#device3 {
+  width: 250px;
+  height: 200px;
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+}
+
+#device3_img {
+  height: 200px;
+  width: 150px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  background-size: cover;
+  background-image: url("img/3D.png");
+}
+
+#device3_txt {
+  font-size: 13px;
+  height: 200px;
+  width: 100px;
+  background-color: RGB(239, 239, 239);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+#device4 {
+  width: 250px;
+  height: 200px;
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+}
+
+#device4_img {
+  height: 200px;
+  width: 150px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  background-size: cover;
+  background-image: url("img/visual.png");
+}
+
+#device4_txt {
+  font-size: 13px;
+  height: 200px;
+  width: 100px;
+  background-color: RGB(239, 239, 239);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}

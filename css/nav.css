@@ -1,0 +1,110 @@
+nav {
+  border: none;
+  z-index: 1;
+}
+
+button {
+  cursor: pointer;
+  border : 0;
+  outline: 0;
+}
+
+#blackOpacity {
+  padding-top: 120px;
+}
+
+#userid{
+  font-size: 18px;
+  display: inline;
+  font-weight: bold;
+  cursor: pointer;
+  border : none;
+  color : black;
+  width:80px;
+  text-align: right;
+  vertical-align: baseline;
+}
+.bar {
+  position: fixed;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 77px;
+  background-color: white;
+  border-bottom: 1.5px solid rgb(235, 235, 235);
+  border-radius: 4px;
+}
+
+.bar_contents {
+  margin: 0 auto;
+  max-width: 1010px;
+
+  /* width: 990px; */
+  padding: 26px 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.insta_logo {
+  display: flex;
+  float: left;
+}
+
+#insta_logo_png {
+  cursor: pointer;
+  display: flex;
+  width: 24px;
+  height: 24px;
+  background-image: url("img/logo.png");
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+#insta_logo_hrizon {
+  display: block;
+  border-right: 0.5px solid black;
+  width: 24px;
+  height: 24px;
+}
+
+#insta_logo {
+  cursor: pointer;
+  display: block;
+  margin-left: 15px;
+  width: 103px;
+  height: 29px;
+  background-image: url("img/collab-logo.png");
+  background-size: cover;
+}
+
+.find_text {
+  display: block;
+  text-align: center;
+}
+
+#TextFind {
+  width: 199px;
+  height: 18px;
+  border-radius: 3px;
+  border: 0.5px solid #EFEFEF;
+  background-color: #fcf7f7;
+  color: #999999;
+  text-align: center;
+  font-size: 14px;
+}
+
+.bar_logoes {
+  text-align: center;
+  display: inline;
+
+}
+
+.bar_logoes img {
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+  margin-left: 24px;
+  float: right;
+}

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/reservation.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Modal Header</h4>
+        </div>
+        <div class="modal-body">
+          <p>Some text in the modal.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Nav -->
+  <nav class="bar">
+    <div class="bar_contents">
+      <div class="insta_logo">
+        <a href="">
+          <div id="insta_logo_png"> </div>
+        </a>
+        <div id="insta_logo_hrizon"> </div>
+        <a href="">
+          <div id="insta_logo"> </div>
+        </a>
+      </div>
+      <div class="find_text">
+        <input id="TextFind" tpye="text" placeholder="검색" onclick="changeTextFind()" onblur="changeTextFind()" />
+      </div>
+      <div class="bar_logoes">
+
+      </div>
+    </div>
+  </nav>
+  <!-- Container -->
+  <div class="main_container">
+    <div class="room_talk">
+      <h3>스터디 룸을 예약하기</h3>
+      <ul class="talk">
+        <li id="talk1" class="btn-lg" data-toggle="modal" data-target="#myModal">
+          <div id="talk1_img"></div>
+          <div id="talk1_txt">
+            <p>
+              &nbsp;---
+            </p>
+          </div>
+        </li>
+        <li id="talk2" class="btn-lg" data-toggle="modal" data-target="#myModal">
+          <div id="talk2_img"></div>
+          <div id="talk2_txt">
+            <p>
+              &nbsp;---
+            </p>
+          </div>
+        </li>
+        <li id="talk3" class="btn-lg" data-toggle="modal" data-target="#myModal">
+          <div id="talk3_img"></div>
+          <div id="talk3_txt">
+            <p>
+              &nbsp;---
+            </p>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="room_device">
+      <h3>기기 룸을 예약하기</h3>
+      <ul class="device">
+        <li id="device1" class="btn-lg" data-toggle="modal" data-target="#myModal">
+          <div id="device1_img"></div>
+          <div id="device1_txt">
+            <p>
+              &nbsp;---
+            </p>
+          </div>
+        </li>
+        <li id="device2" class="btn-lg" data-toggle="modal" data-target="#myModal">
+          <div id="device2_img"></div>
+          <div id="device2_txt">
+            <p>
+              &nbsp;---
+            </p>
+          </div>
+        </li>
+        <li id="device3" class="btn-lg" data-toggle="modal" data-target="#myModal">
+          <div id="device3_img"></div>
+          <div id="device3_txt">
+            <p>
+              &nbsp;---
+            </p>
+          </div>
+        </li>
+        <li id="device4" class="btn-lg" data-toggle="modal" data-target="#myModal">
+          <div id="device4_img"></div>
+          <div id="device4_txt">
+            <p>
+              &nbsp;---
+            </p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+  </div>
+
+
+</body>
+<script src="js/reservation.js"></script>
+
+</html>
